@@ -32,7 +32,7 @@ body {
   position: absolute;
   animation-duration: 3s;
   top:5%;
-  left:40%;
+  left:50%;
   z-index: 10006;
 }
 
@@ -113,7 +113,7 @@ nav ul li a:active {
 
 #portfolio .text {
   top:30%;
-  left:25%;
+  left:20%;
   position: absolute;
 }
 
