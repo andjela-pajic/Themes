@@ -80,7 +80,7 @@ nav ul li a:active {
 
 #home p {
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 #home span,
@@ -113,7 +113,7 @@ nav ul li a:active {
 
 #portfolio .text {
   top:30%;
-  left:20%;
+  left:25%;
   position: absolute;
 }
 
