@@ -32,7 +32,7 @@ body {
   position: absolute;
   animation-duration: 3s;
   top:5%;
-  left:50%;
+  left:40%;
   z-index: 10006;
 }
 
@@ -80,7 +80,7 @@ nav ul li a:active {
 
 #home p {
   text-align: center;
-  font-size: 40px;
+  font-size: 20px;
 }
 
 #home span,
@@ -113,7 +113,7 @@ nav ul li a:active {
 
 #portfolio .text {
   top:30%;
-  left:5%;
+  left:20%;
   position: absolute;
 }
 
