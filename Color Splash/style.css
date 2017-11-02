@@ -28,7 +28,7 @@ body {
   width: 100px;
   height: 100px;
   right:4%;
-  top:14%;
+  top:16%;
   z-index: 999;
 }
 
@@ -71,7 +71,7 @@ nav ul li {
   bottom:0;
   border-right: 10px solid #fff200;
   opacity: 0.85;
-  padding: 250px  0;
+  padding: 350px  0;
   overflow: hidden;
 }
 
@@ -105,47 +105,47 @@ nav ul li {
 
 .pink  .first {
   margin-top: -40px;
-  margin-left: 20px;
+  margin-left: 60px;
 }
 
 .pink .second {
   margin-top: -90px;
-  margin-left: 150px;
+  margin-left: 190px;
 }
 
 .pink .third {
   margin-top: -30px;
-  margin-left: 220px;
+  margin-left: 260px;
 }
 
 .pink .fourth {
   margin-top: -50px;
-  margin-left: 350px;
+  margin-left: 390px;
 }
 
 .pink .fifth {
   margin-top: 50px;
-  margin-left: 170px;
+  margin-left: 210px;
 }
 
 .pink  .sixth {
   margin-top: -100px;
-  margin-left: 300px;
+  margin-left: 350px;
 }
 
 .pink  .seventh {
   margin-top: -150px;
-  margin-left: 360px;
+  margin-left: 4100px;
 }
 
 .pink  .eighth {
   margin-top: -180px;
-  margin-left: 190px;
+  margin-left: 230px;
 }
 
 .pink  .ninth {
   margin-top: -130px;
-  margin-left: 50px;
+  margin-left: 90px;
 }
 
 .pink .logo img {
