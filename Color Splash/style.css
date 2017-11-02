@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin:0;
+
+}
+
+ul li {
+  list-style-type: none;
+}
+
+body {
+  background: url('images/pozadina.png');
+  background-size: cover;
+  margin:0;
+  padding: 0;
+  font-size: 12px;
+}
+
+.question {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right:4%;
+  top:14%;
+  z-index: 999;
+}
+
+.leftedge {
+  transform:skewX(-45deg);
+  display: inline-block;
+	padding: 5px 30px;
+	border: 0;
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+  background-color: #fff200;
+  margin:0;
+}
+
+.leftedge > div {
+  transform:skewX(45deg);
+}
+
+nav {
+  float:right;
+  right: 0;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+nav ul {
+  margin-right: -11px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+.pink {
+  background: url('images/rozepozadina.png');
+  width: 30%;
+  position: fixed;
+  top:0;
+  bottom:0;
+  border-right: 10px solid #fff200;
+  opacity: 0.85;
+  padding: 250px  0;
+  overflow: hidden;
+}
+
+.pink .pyramid {
+  position: absolute;
+  width: 12%;
+  display: block;
+  margin-top: -120px;
+  margin-bottom: -300px;
+  -webkit-animation: rotate 5s, pyramid 30s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        } to {
+            transform: rotate(360deg);
+        }
+    }
+
+
+@keyframes pyramid {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 130%;;
+  }
+}
+
+.pink  .first {
+  margin-top: -40px;
+  margin-left: 20px;
+}
+
+.pink .second {
+  margin-top: -90px;
+  margin-left: 150px;
+}
+
+.pink .third {
+  margin-top: -30px;
+  margin-left: 220px;
+}
+
+.pink .fourth {
+  margin-top: -50px;
+  margin-left: 350px;
+}
+
+.pink .fifth {
+  margin-top: 50px;
+  margin-left: 170px;
+}
+
+.pink  .sixth {
+  margin-top: -100px;
+  margin-left: 300px;
+}
+
+.pink  .seventh {
+  margin-top: -150px;
+  margin-left: 360px;
+}
+
+.pink  .eighth {
+  margin-top: -180px;
+  margin-left: 190px;
+}
+
+.pink  .ninth {
+  margin-top: -130px;
+  margin-left: 50px;
+}
+
+.pink .logo img {
+  margin: 0 auto;
+  display: block;
+  width: 80%;
+}
+
+.menu {
+  width: 60%;
+  float:right;
+  margin: 7% 4% 0% 4%;
+}
+
+.menu .column {
+  width: 30%;
+  float:left;
+  margin:0 1%;
+  background-color: #9a9898;
+  opacity: 0.80;
+  text-align: center;
+  overflow: visible;
+}
+
+.menu .column .zoom {
+  display: inline-block;
+  width: 100%;
+  transition: all 0.3s;
+  max-width: 120%;
+  background-color: #9a9898;
+}
+
+.menu .column .zoom:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.menu .column .box {
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.menu .column .box img {
+  width: 50%;
+  display: block;
+  margin:0 auto;
+}
+
+.menu .column .dark {
+  background-color: #716f6f;
+  height: 100px;
+  text-align: center;
+  color:#fff200;
+  text-transform: uppercase;
+  line-height: 100px;
+  font-size: 16px;
+}
